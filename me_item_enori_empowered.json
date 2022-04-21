@@ -1,0 +1,48 @@
+{
+    "machine": "mechanical_empowerer",
+    "registryName": "me_item_enori_empowered",
+    "recipeTime": 10,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:snowball",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:stone_button",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:cobblestone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dyeGray",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_crystal@5",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:item_crystal_empowered@5",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        }
+    ]
+}

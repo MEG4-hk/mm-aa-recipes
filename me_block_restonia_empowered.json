@@ -1,0 +1,48 @@
+{
+    "machine": "mechanical_empowerer",
+    "registryName": "me_block_restonia_empowered",
+    "recipeTime": 10,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:nether_brick",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:brick",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dyeRed",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:block_crystal@0",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:block_crystal_empowered@0",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        }
+    ]
+}

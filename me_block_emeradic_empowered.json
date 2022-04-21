@@ -1,0 +1,48 @@
+{
+    "machine": "mechanical_empowerer",
+    "registryName": "me_block_emeradic_empowered",
+    "recipeTime": 10,
+    "requirements": [
+       {
+            "type": "item",
+            "io-type": "input",
+            "item": "nuclearcraft:ingot@9",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "nuclearcraft:gem@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "natura:nether_thorn_vines@0",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:vine",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:block_crystal@4",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:block_crystal_empowered@4",
+            "amount": 1
+        },
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        }
+    ]
+}
